@@ -6,7 +6,7 @@ export const heroObjTwo = {
     title: "Zúčastni se jedinečného Mentoringu s ReactGirls!",
     subtitle: "#ReactGirlsPrague",
     buttonText: "ODEBÍRAT NEWSLETTER",
-    img: "/images/gallery/mentoring",
+    img: "/images/gallery/mentoring.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
     showNewsletter: false,
     showLogInButton: true,

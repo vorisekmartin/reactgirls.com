@@ -69,16 +69,16 @@ function Navbar() {
                                 <NavLinks activeStyle={{ color: '#00B4CD' }} exact to='/'>Úvod</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks activeStyle={{ color: '#00B4CD'  }} to='/about'>O nás</NavLinks>
+                                <NavLinks activeStyle={{ color: '#00B4CD'  }} to='/onas'>O nás</NavLinks>
                             </NavItem>                        
                             <NavItem>
                                 <NavLinks activeStyle={{ color: '#00B4CD' }} to='/mentoring'>Mentoring</NavLinks>
                             </NavItem>                        
                             <NavItem>
-                                <NavLinks activeStyle={{ color: '#00B4CD' }} to='/academy'>Akademie</NavLinks>
+                                <NavLinks activeStyle={{ color: '#00B4CD' }} to='/akademie'>Akademie</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks activeStyle={{ color: '#00B4CD' }} to='/contact'>Kontakt</NavLinks>
+                                <NavLinks activeStyle={{ color: '#00B4CD' }} to='/kontakt'>Kontakt</NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavWrapper> 

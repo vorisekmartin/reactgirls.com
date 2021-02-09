@@ -62,8 +62,7 @@ export const TitleContainer = styled.div`
     height: 450px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 40px;
-    margin-bottom: 40px;
+   
 
     @media only screen and (max-width: 319px) { 
         width: 240px;
@@ -88,12 +87,18 @@ export const TitleContainer = styled.div`
     @media only screen and (min-width: 1250px) { 
         width: 450px; 
         height: 450px;
+        margin: 40px auto 0 auto; 
+    }
+    @media only screen and (max-width: 1250px) { 
+        margin: 40px auto 0 auto; 
     }
  `;
 
 export const HeroImg = styled.img`
     height: 450px;
     width: auto;
+    position: relative;
+    right: 130px;
 
     @media only screen and (max-width: 319px) { 
         height: 240px; 
@@ -118,6 +123,6 @@ export const HeroImg = styled.img`
 
 export const SubtitleHero = styled(Subtitle)`
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 `;
 

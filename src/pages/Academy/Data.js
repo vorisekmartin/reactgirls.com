@@ -6,7 +6,7 @@ export const heroObjThree = {
     title: "Zúčastni se intenzivní Akademie s ReactGirls!",
     subtitle: "#ReactGirlsPrague",
     buttonText: "ODEBÍRAT NEWSLETTER",
-    img: "/images/community/photo_9.jpg",
+    img: "/images/gallery/academy.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
     showNewsletter: true,
     showLogInButton: false,
