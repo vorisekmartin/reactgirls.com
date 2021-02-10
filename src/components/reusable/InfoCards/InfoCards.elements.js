@@ -48,7 +48,7 @@ export const InfoCard = styled.div`
         height: 380px;
     }
     
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 319px) {
         padding: 0 5px 20px 5px;
         height: auto;
     }

@@ -12,6 +12,15 @@ export const heroObjTwo = {
     showLogInButton: true,
 };
 
+/* switch between Newsletter and LogInButton on Price Container of Mentoring page*/
+
+export const mentPrice = {
+    price: "2700 CZK",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
+    showNewsletter: false,
+    showLogInButton: true,
+}
+
 export const infoObjOne = {
     text: "Přihlaš se do Mentoringu ReactGirls a získej kouče, který tě bude mentorovat a rozvíjet tvé technické dovednosti.",
     content: "mentoring",
@@ -74,15 +83,6 @@ export const mentStudentArr = [
     }
 ];
 
-/* switch between Newsletter and LogInButton on Price Container of Mentoring page*/
-
-export const mentPrice = {
-    price: "2700 CZK",
-    form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
-    showNewsletter: false,
-    showLogInButton: true,
-}
-
 export const mentPriceArr = [
     {
         text: "mentor po dobu 3 měsíců",
@@ -114,7 +114,7 @@ export const mentQuestionsArr = [
     },
     {
         question: "Jak se můžu na mentoring přihlásit?",
-        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform">ZDE </LinkA>a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
+        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform" target="blank">ZDE </LinkA>a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
     },
     {
         question: "Co si z mentoringu odnesu?",
@@ -122,15 +122,15 @@ export const mentQuestionsArr = [
     },
     {
         question: "Stále si nejsi jistá?",
-        answer: <>Pokud se chceš ujistit, že je mentoring pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/contact">kontaktovat</LinkA>.</>
+        answer: <>Pokud se chceš ujistit, že je mentoring pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
     }, 
 ];
 
 export const processArrMent = [
     {
         number: 1,
-        heading: "MÁM ZÁJEM",
-        text: "Klikni na tlačítko MÁM ZÁJEM",
+        heading: "REGISTRACE",
+        text: "Klikni na tlačítko REGISTRACE",
         reversed: false,
         last: false,
         first: true

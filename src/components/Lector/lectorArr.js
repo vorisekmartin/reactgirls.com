@@ -41,7 +41,7 @@ const lectorArr = [
         lectorName: "Simona Töröková",
         lectorJob: "Data Analyst/Scientist",
         lectorCompany: "DataSentics",
-        lectorLinkedIn: "https://www.linkedin.com/simona-t%C3%B6r%C3%B6kov%C3%A1-31baa211a/",
+        lectorLinkedIn: "https://www.linkedin.com/in/simona-t%C3%B6r%C3%B6kov%C3%A1-31baa211a",
     },
     {
         lectorImg: "/images/lectors/richard.jpg",

@@ -47,45 +47,33 @@ export const GalleryImg = styled.img`
 `;
 
 export const NextArrow = styled.img`
+    :hover{
+        //filter: invert(50%);
+    }
 
-    @media only screen and (max-width: ${breakpoints.tablet}) {
+    @media only screen and (max-width: ${breakpoints.tablet})  {
         position: absolute;
         right: 25px;
         z-index: 100;
-        width: 30px;
-        height: 30px;   
-        filter: invert(0%) contrast(500%) drop-shadow(0px 0px 14px black);
-    }
-
-    @media only screen and (max-width: 651px) {
-        right: 15px;
-        width: 20px;
-        height: 20px;
-    }
-
-    :hover{
-        filter: invert(50%);
+        width: 25px;
+        height: 25px;   
+        filter: invert(0%) contrast(500%) drop-shadow(0px 0px 5px black);
     }
 `;
 
 export const PrevArrow = styled.img`
+    &:hover{
+        //filter: invert(50%);
+    }
 
     @media only screen and (max-width: ${breakpoints.tablet}) {
         position: absolute;
         left: 25px;
         z-index: 100;
-        width: 30px;
-        height: 30px;
-        filter: invert(0%) contrast(1000%) drop-shadow(0px 0px 14px black);
-
-        :hover{
-            filter: invert(0%);
-        }
-    }
-    
-    :hover{
-        filter: invert(50%);
-    }
+        width: 25px;
+        height: 25px;
+        filter: invert(0%) contrast(1000%) drop-shadow(0px 0px 5px black);
+    }  
 `;
 
 

@@ -12,10 +12,19 @@ export const heroObjThree = {
     showLogInButton: false,
 };
 
+/* switch between Newsletter and LogInButton on Price Container of Academy page*/
+
+export const acadPrice = {
+    price: "490 CZK",
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
+    showNewsletter: true,
+    showLogInButton: false,
+}
+
 export const infoObjTwo = {
     text: "Přihlaš se do intenzivní Akademie ReactGirls a nauč se s námi programovat od základů.",
     content: "academy",
-    
+   
 }
 
 export const academyCardArr = [
@@ -56,6 +65,7 @@ export const titleObjTwo = {
     mainCardsTitle: "Co Akademie nabízí?",
     mainPriceTitle: "Co vše je v ceně Akademie?",
 };
+
 export const acadStudentArr = [
     {
         icon: "/images/icons/website.svg",
@@ -98,14 +108,7 @@ export const acadPriceArr = [
     }
 ];
 
-/* switch between Newsletter and LogInButton on Price Container of Academy page*/
 
-export const acadPrice = {
-    price: "490 CZK",
-    form: "https://docs.google.com/forms/d/e/1FAIpQLSdb2wmsMPvBtEqxBmfMUdnOaaAcZm5MtTXDFTGLC5mmbBhMWQ/viewform",
-    showNewsletter: true,
-    showLogInButton: false,
-}
 
 export const programArr1 = [
     {
@@ -175,15 +178,15 @@ export const acadQuestionsArr = [
     },
     {
         question: "Stále si nejsi jistá?",
-        answer: <>Pokud se chceš ujistit, že je akademie pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/contact">kontaktovat</LinkA>.</>
+        answer: <>Pokud se chceš ujistit, že je akademie pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
     }, 
 ];
 
 export const processArrAcad = [
     {
         number: 1,
-        heading: "MÁM ZÁJEM",
-        text: "V případě, že je momentálně otevřené přihlašování na akademii, v horní části této stránky je možné kliknout na tlačítko MÁM ZÁJEM v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další akademie dozvíte",
+        heading: "REGISTRACE",
+        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další akademie dozvíš",
         reversed: false,
         last: false,
         first: true

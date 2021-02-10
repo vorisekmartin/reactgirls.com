@@ -6,7 +6,7 @@ import { Paragraph, TitleCenter, TitleLeft, Button } from '../reusable/styled';
 export const ProductInfo = styled(Paragraph)`
     font-weight: 300;
     line-height: 1.8;
-    margin-bottom: 32px;
+    //margin-bottom: 32px;
     margin-top: 32px;
     color: ${colors.grey};
     text-align: left;
@@ -25,7 +25,7 @@ export const ProductInfo = styled(Paragraph)`
     @media only screen and (max-width: ${breakpoints.tablet} ) { 
         margin-right: 16px;
         margin-left: 16px;
-        margin-bottom: 40px;
+        //margin-bottom: 40px;
         margin-top: 32px;
     }
 `;
@@ -82,6 +82,7 @@ export const ProductTitle = styled(TitleLeft)`
 
 export const ProductButton = styled(Button)`
     width: 160px;
+    margin-top: 32px;
 `;
 
 export const ProductImg = styled.img`
