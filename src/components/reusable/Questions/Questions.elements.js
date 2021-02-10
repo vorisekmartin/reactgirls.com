@@ -37,9 +37,13 @@ export const QuestionWrapper = styled.div`
     }
 
     @media screen and (max-width: ${breakpoints.tablet}) {
-        height: auto;
+        height: 720px;
         padding-bottom: 0px;
         padding-top: 80px;
+
+        &.mentoring{
+            height: 540px;
+        }
     }
 `;
 

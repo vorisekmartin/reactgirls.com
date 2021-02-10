@@ -12,7 +12,7 @@ export const HeroHomeRow = styled.div`
     flex-direction: row;
     justify-content: space-between;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     transition: all 1.5s ease-in-out;
 
     @media only screen and (max-width: 1250px) {
@@ -80,6 +80,7 @@ export const TitleLeftHome = styled(TitleCenter)`
 
 export const FirstHomeRow = styled.div`
     display: flex;
+    height: 100%;   
 
    @media only screen and (max-width:325px) {
         flex-direction: column;
@@ -92,6 +93,7 @@ export const AnimationText = styled.div`
     color: ${colors.mainBlue};
     font-size: ${sizes.sizeXXXL};
     cursor: pointer;
+    //border: 1px solid red;
 
     :hover{
         filter: saturate(50%) contrast(75%);
@@ -113,22 +115,28 @@ export const SliderText = styled(Slider)`
     margin-left: 12px;
     width: 225px;
     position: relative;
-    top: 2px;
+    top: 2.5px;
+    //border: 1px solid red;
   
     .slick-slide {
+        height: 50px;
 
+        @media only screen and (max-width: 1250px) {
+            height: 34px;
+        }
     }
     
     @media only screen and (max-width: 1250px) {
         width: 140px;
-        top: 2px; 
+        bottom: 4px; 
         margin: 0 auto 0 8px;
+        top: 1.5px;
     }
 
     @media only screen and (max-width: 330px) {
         width: 150px;
         position: relative;
-        top: 2px;
+        //top: 2px;
         margin: 0 auto;
     }    
 `;

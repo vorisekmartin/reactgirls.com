@@ -11,7 +11,7 @@ const productArr = [
         img: "images/products/community.jpg",
         imgStart: false,
         lightBlue: false,
-        link: '/about',
+        link: '/onas',
         id: "community"
     },
     {
@@ -50,9 +50,7 @@ const productArr = [
         id: "webinar"
     },
     {
-        title: "Mentoring",
-
-        
+        title: "Mentoring", 
         info: "Vyzkoušejte si náš jedinečný mentoringový program. Mentor vede mentee během tří měsíců k tvorbě komplexního webového projektu zvoleného podle cílu mentee a předává ji tak užitečné know-how. Na konci je mentee připravena sama zvládnout tvorbu dalších projektů v Reactu.",
         hideButton: false,
         buttonText: "Zjistit více",
@@ -70,7 +68,7 @@ const productArr = [
         img: "images/products/academy.jpg",
         imgStart: false,
         lightBlue: false,
-        link: '/academy',
+        link: '/akademie',
         id: "academy"
     },
     {

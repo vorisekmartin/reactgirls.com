@@ -143,8 +143,8 @@ export const NavLinks = styled(NavLink)`
 
         @media screen and (max-width: 321px) {
             font-size: ${sizes.sizeS};
-            margin-top: 25px;
-            margin-bottom: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
         }
     }
     `;

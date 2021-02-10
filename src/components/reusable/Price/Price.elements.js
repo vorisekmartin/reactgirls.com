@@ -67,7 +67,7 @@ export const PriceContainer = styled.div`
     padding: 10px 40px 50px 40px;
 
     @media screen and (max-width: ${breakpoints.tablet}) {
-        padding: 0 40px 30px 40px;
+        padding: 0 40px 40px 40px;
 
     }
 `;

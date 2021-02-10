@@ -12,7 +12,7 @@ function AboutHero({title, text1 }) {
                     <AboutTitle>{title}</AboutTitle>
                     <AboutText>{text1}</AboutText>
                     <SubTitleAbout>#ReactGirlsPrague</SubTitleAbout>
-                    <ButtonAbout href='/contact'>KONTAKT</ButtonAbout>
+                    <ButtonAbout href='/kontakt'>KONTAKT</ButtonAbout>
             </WrapperAbout>
         </Container>
     )
