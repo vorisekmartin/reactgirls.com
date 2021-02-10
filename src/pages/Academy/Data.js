@@ -36,12 +36,12 @@ export const academyCardArr = [
     {
         icon: "/images/icons/profesional.svg",
         title: "Profesionály",
-        text: "Lektoři jsou profesionálové v IT oboru a mají bohaté zkušenosti. Vybrali jsme pro Vás ty nejlepší.",
+        text: "Lektoři jsou profesionálové v IT oboru a mají bohaté zkušenosti. Vybrali jsme pro vás ty nejlepší.",
     },
     {
         icon: "/images/icons/presentation.svg",
         title: "Lekce",
-        text: "Celkem 5 lekcí zaměřené na budování Vašich technických dovedností v HTML, CSS, JavaScript a React.",
+        text: "Celkem 5 lekcí zaměřených na budování vašich technických dovedností v HTML, CSS, JavaScript a React.",
     },
     {
         icon: "/images/icons/marathon.svg",
@@ -169,7 +169,7 @@ export const acadQuestionsArr = [
         >výše</LinkScroll> jsou vypsány časy jednotlivých lekcí.</>
     },
     {
-        question: "Co si z akademie odnesu? ",
+        question: "Co si z Akademie odnesu? ",
         answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, certifikát o absolvování a merch ReactGirls. Ale hlavně si odneseš skvělé strávený čas se super partou!",
     },
     {
@@ -178,7 +178,7 @@ export const acadQuestionsArr = [
     },
     {
         question: "Stále si nejsi jistá?",
-        answer: <>Pokud se chceš ujistit, že je akademie pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
+        answer: <>Pokud se chceš ujistit, že je Akademie pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
     }, 
 ];
 
@@ -186,7 +186,7 @@ export const processArrAcad = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další akademie dozvíš",
+        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou Akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další Akademie dozvíš",
         reversed: false,
         last: false,
         first: true
@@ -194,7 +194,7 @@ export const processArrAcad = [
     {
         number: 2,
         heading: "VYPLŇ FORMULÁŘ",
-        text: "Po kliknutí na tlačítko MÁM ZÁJEM se objeví formulář, ten vyplň a nezapomeň vyplnit motivaci, vybíráme i na základě té. Přihlásit se je možné dokud se nám nezaplní kapacita, proto s přihlašováním neváhej!",
+        text: "Po kliknutí na tlačítko REGISTRACE se objeví formulář, ten vyplň a nezapomeň vyplnit motivaci, vybíráme i na základě té. Přihlásit se je možné dokud se nám nezaplní kapacita, proto s přihlašováním neváhej!",
         reversed: true,
         last: false,
         first: false

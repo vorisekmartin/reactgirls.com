@@ -9,7 +9,7 @@ function AboutProduct({data}) {
                 <Wrapper>
                     <WrapperAbout>
                         <TitleCenter>Co děláme</TitleCenter>
-                        <AboutText>Pomáháme ženám objevovat svět webdesignu. Kromě akademie, workshopů a mentoringového programu pořádáme webináře na nejrůznější témata. Společně pořádáme meetupy, kde se mohou účastnící s lektory lépe poznat.</AboutText>
+                        <AboutText>Pomáháme ženám objevovat svět webdesignu. Kromě Akademie, Workshopů a Mentoringu, pořádáme Webináře na nejrůznější témata. Společně pořádáme Meetupy, kde se mohou účastnící s lektory lépe poznat.</AboutText>
                     </WrapperAbout>
                 </Wrapper>
             </Container>
