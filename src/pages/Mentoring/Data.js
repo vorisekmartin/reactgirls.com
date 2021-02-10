@@ -110,7 +110,7 @@ export const mentPriceArr = [
 export const mentQuestionsArr = [
     {
         question: "Pro koho je Mentoring určen?",
-        answer: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, prípadne JS a chtěly by je posunout na další úroveň s Reactem.",
+        answer: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, případně JS a chtěly by je posunout na další úroveň s Reactem.",
     },
     {
         question: "Jak se můžu na Mentoring přihlásit?",
