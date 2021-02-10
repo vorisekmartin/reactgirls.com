@@ -10,9 +10,9 @@ export const HeroHomeRow = styled.div`
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
     transition: all 1.5s ease-in-out;
 
     @media only screen and (max-width: 1250px) {
@@ -33,10 +33,6 @@ export const HeroHomeRow = styled.div`
 `;
 
 export const HeroHomeColumn = styled.div`
-    flex: 1;
-    max-width: 50%;
-    flex-basis: 50%;
-
     @media only screen and (max-width: 1250px) {
         max-width: 100%;
         flex-basis: 100%;
@@ -141,7 +137,7 @@ export const ImgHomeContainer = styled.div`
     border-radius: 50%;
     overflow: hidden;
     outline: none;
-    margin-top: 40px;
+
 
     @media only screen and (max-width: 319px) { 
         width: 240px;
@@ -158,13 +154,13 @@ export const ImgHomeContainer = styled.div`
     @media only screen and (min-width: 420px) and (max-width: 1130px) { 
         width: 380px; 
         height: 380px;
-
     }
 
     @media only screen and (min-width: 1130px) { 
         width: 480px; 
         height: 480px;
     }
+
 `;
 
 export const HeroHomeImg = styled.img`
@@ -194,7 +190,10 @@ export const HeroHomeImg = styled.img`
  `;
 
  export const SliderImg = styled(Slider)`
-    margin: 0 auto;
+ 
+    @media only screen and (max-width: 1250px) { 
+        margin: 30px auto 0 auto; 
+    }
   .slick-dots li {
     width: 10px;
     transition: width 0.3s ease-in-out;
@@ -253,8 +252,8 @@ export const SubtitleHero = styled(Subtitle)`
     
     @media only screen and (max-width: 1250px) { 
         text-align: center;
-        margin-top: 40px; 
-        margin-bottom: 40px; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
     }   
 `;
 

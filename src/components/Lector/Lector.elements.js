@@ -76,7 +76,6 @@ export const Card = styled.div`
     outline: none;
 
     @media only screen and (max-width: 1280px) {
-        height: 400px;
         width: 260px;
         max-width: 260px;
         width: 260px;
@@ -86,8 +85,7 @@ export const Card = styled.div`
     @media only screen and (max-width: 700px) {
         width: 220px;
         padding: 25px 5px;
-        
-        height: 350px;
+
     }
 
     @media only screen and (max-width: 380px) {

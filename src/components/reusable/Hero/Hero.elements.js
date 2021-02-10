@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import  { breakpoints } from '../../../variables';
+import  { breakpoints, sizes } from '../../../variables';
 import { TitleLeft, Subtitle, Button } from '../styled';
 
 export const HeroWrapper = styled.div`
@@ -24,8 +24,14 @@ export const HeroWrapper = styled.div`
 
 export const HeroTitle = styled(TitleLeft)`
 
+
 @media screen and (max-width: 1250px) {
         text-align: center;
+        font-size: ${sizes.sizeXL};
+        width: 60%;
+    }
+    @media only screen and (max-width: 540px) {
+        width: 100%;
     }
 
     @media only screen and (max-width: 330px) {
@@ -62,8 +68,7 @@ export const TitleContainer = styled.div`
     height: 450px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 40px;
-    margin-bottom: 40px;
+   
 
     @media only screen and (max-width: 319px) { 
         width: 240px;
@@ -89,11 +94,16 @@ export const TitleContainer = styled.div`
         width: 450px; 
         height: 450px;
     }
+    @media only screen and (max-width: 1250px) { 
+        margin: 30px auto 0 auto; 
+    }
  `;
 
 export const HeroImg = styled.img`
     height: 450px;
     width: auto;
+    position: relative;
+    right: 130px;
 
     @media only screen and (max-width: 319px) { 
         height: 240px; 
@@ -119,5 +129,11 @@ export const HeroImg = styled.img`
 export const SubtitleHero = styled(Subtitle)`
     margin-bottom: 30px;
     margin-top: 20px;
+    
+    @media only screen and (max-width: 1250px) { 
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
 `;
 
