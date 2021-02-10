@@ -46,6 +46,7 @@ export const LinkA = styled.a `
     color: ${colors.mainBlue};
     font-weight: 500;  
     text-decoration: none;
+    background-color: none;
     
     @media only screen and (max-width: ${breakpoints.tablet}) {
         font-size: ${sizes.sizeS};

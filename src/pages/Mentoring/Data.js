@@ -109,20 +109,20 @@ export const mentPriceArr = [
 
 export const mentQuestionsArr = [
     {
-        question: "Pro koho je mentoring určen?",
+        question: "Pro koho je Mentoring určen?",
         answer: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, prípadne JS a chtěly by je posunout na další úroveň s Reactem.",
     },
     {
-        question: "Jak se můžu na mentoring přihlásit?",
+        question: "Jak se můžu na Mentoring přihlásit?",
         answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform" target="blank">ZDE </LinkA>a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
     },
     {
-        question: "Co si z mentoringu odnesu?",
+        question: "Co si z Mentoringu odnesu?",
         answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, certifikát o absolvování a merch ReactGirls.",
     },
     {
         question: "Stále si nejsi jistá?",
-        answer: <>Pokud se chceš ujistit, že je mentoring pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
+        answer: <>Pokud se chceš ujistit, že je Mentoring pro tebe to pravé, případně máš ještě další otázky, neváhej nás <LinkA href="/kontakt">kontaktovat</LinkA>.</>
     }, 
 ];
 
@@ -130,7 +130,7 @@ export const processArrMent = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "Klikni na tlačítko REGISTRACE",
+        text: "V případě, že je momentálně otevřené přihlašování na Mentoring, pod cenou Mentoringu je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření dalšího Mentoringu dozvíš",
         reversed: false,
         last: false,
         first: true
@@ -146,7 +146,7 @@ export const processArrMent = [
     {
         number: 3,
         heading: "KONTAKTUJEME TĚ",
-        text: "Před spuštěním běhu tě budeme kontaktovat a sdělíme ti, zda jsme vybrali právě tebe. Pošleme ti taky všechny potřebné informace o mentoringovom programu společně s informacemi o platbě.",
+        text: "Před spuštěním běhu tě budeme kontaktovat a sdělíme ti, zda jsme vybrali právě tebe. Pošleme ti taky všechny potřebné informace o mentoringovém programu společně s informacemi o platbě.",
         reversed: false,
         last: true,
         first: false

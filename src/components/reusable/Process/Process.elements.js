@@ -28,6 +28,16 @@ export const ProcessRow = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: ${({reversed}) => (reversed ? `row-reverse`  : `row` )};
+    height: 180px;
+    @media screen and (max-width: 1218px) {
+        height: 180px;
+    }
+    @media screen and (max-width: 994px) {
+        height: 200px;
+    }
+    @media screen and (max-width: 475px) {
+        height: auto;
+    }
 
     @media screen and (max-width: ${breakpoints.tablet}) {
         flex-direction: row;
@@ -61,6 +71,7 @@ export const ProcessGraphic = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
     margin-right: 50px;
     margin-left: 50px;
@@ -74,9 +85,17 @@ export const ProcessLine = styled.div`
     display: ${({last}) => (last ? `none`  : `` )};
     width: 1px;
     border-left: 2px dotted ${colors.veryLightGrey};
-    height: 160px;
+    height: 180px;
     position: absolute;
-    top: 0px;  
+    top: 82.5px;  
+    @media screen and (max-width: 1218px) {
+        height: 180px;
+        top: 90px; 
+    }
+    @media screen and (max-width: 994px) {
+        height: 200px;
+        top: 100px; 
+    }
 `;
 
 export const ProcessPoint = styled.h1`

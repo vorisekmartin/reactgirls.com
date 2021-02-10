@@ -14,7 +14,7 @@ function ContactHero() {
     return (
         <Container lightBlue>
             <Wrapper>
-                <ContactHeroContainer className={navLogo ? 'changePadding' : ''}>
+                <ContactHeroContainer className={navLogo ? 'active' : ''}>
                     <ContactHeroTitle>Jak nás můžeš kontaktovat?</ContactHeroTitle>
                     <ContactInfo>
                         Napiš nám přes sociální sítě nebo nás kontaktuj na e-mail.

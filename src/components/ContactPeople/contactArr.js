@@ -14,7 +14,7 @@ const contactArr = [
     {
         photo: "/images/lectors/simca.jpg",
         name: "Simona Töröková",
-        interest: "Organizátorka mentoringu",
+        interest: "Organizátorka Mentoringu",
         mail: "simca@reactgirls.com",
         linkedIn: "https://www.linkedin.com/in/simona-t%C3%B6r%C3%B6kov%C3%A1-31baa211a/?originalSubdomain=cz",
         hideFacebook: true, 

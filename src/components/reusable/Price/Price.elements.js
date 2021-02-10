@@ -42,22 +42,22 @@ export const PriceRectangle = styled.div`
 
     @media screen and (max-width: 415px) {
         width: 351px;
-        margin: 20px auto 0px auto;
+        margin: 80px auto 0px auto;
+        
     }
 
     @media screen and (max-width: 376px) {
         width: 320px;
-        margin: 20px auto 0px auto;
+        
     }
 
     @media screen and (max-width: 340px) {
         width: 280px;
-        margin: 20px auto 0px auto;
+       
     }
 
     @media screen and (max-width: 319px) {
         width: 100%;
-        margin: 20px auto 0px auto;
         background: none;
         box-shadow: none;
     }

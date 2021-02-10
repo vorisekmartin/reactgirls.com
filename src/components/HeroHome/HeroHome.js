@@ -62,7 +62,7 @@ function HeroHome( {img}) {
         fade:true,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1350,
+        autoplaySpeed: 1100,
         speed: 550,
         pauseOnHover: false,
         appendDots: dots => <ul>{dots}</ul>,
@@ -81,7 +81,7 @@ function HeroHome( {img}) {
         autoplay: true,
         speed: 550,
         fade: true,
-        autoplaySpeed: 1350,
+        autoplaySpeed: 1100,
         pauseOnHover: false,
         appendDots: dots => <ul>{dots}</ul>,
         customPaging: i => (
@@ -96,10 +96,11 @@ function HeroHome( {img}) {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1350,
+        autoplaySpeed: 1100,
         arrows: false,
         speed: 550,
         pauseOnHover: false, 
+       
       };
       const isBreakpoint = useMediaQuery(1250);
       const navLogo = useTheme();
