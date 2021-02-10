@@ -74,7 +74,7 @@ export const mentStudentArr = [
     {
         icon: "/images/icons/victory.svg",
         heading: "Začátečnicím",
-        text: "Začatečnicím, které již mají zkušenosti s programováním a chtěly by je posunout na další úroveň s Reactem.",
+        text: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, prípadne JS a chtěly by je posunout na další úroveň s Reactem.",
     },
     {
         icon: "/images/icons/woman3.svg",
@@ -114,7 +114,7 @@ export const mentQuestionsArr = [
     },
     {
         question: "Jak se můžu na Mentoring přihlásit?",
-        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform" target="blank">ZDE </LinkA>a vyplnit registrační formulář. Obratem ti na e-mail pošleme všechny nezbytné informace a informace o platbě.</>
+        answer: <>Stačí kliknout <LinkA href="https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform" target="blank">ZDE </LinkA>a vyplnit registrační formulář.</>
     },
     {
         question: "Co si z Mentoringu odnesu?",
