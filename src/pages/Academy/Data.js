@@ -186,7 +186,7 @@ export const processArrAcad = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou Akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další Akademie dozvíš",
+        text: "V případě, že je momentálně otevřené přihlašování na Akademii, pod cenou Akademie je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření další Akademie dozvíš.",
         reversed: false,
         last: false,
         first: true

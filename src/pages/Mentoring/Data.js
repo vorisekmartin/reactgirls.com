@@ -55,7 +55,7 @@ export const mentoringCardArr = [
     {
         icon: "/images/icons/certificate.svg",
         title: "Certifikát",
-        text: "Certifikát o absolvování mentoringu a ReactGirls merch ve formě trička a batůžku.",
+        text: "Certifikát o absolvování mentoringu a ReactGirls merch.",
     },
 ];
 
@@ -74,7 +74,7 @@ export const mentStudentArr = [
     {
         icon: "/images/icons/victory.svg",
         heading: "Začátečnicím",
-        text: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, prípadne JS a chtěly by je posunout na další úroveň s Reactem.",
+        text: "Začatečnicím, které již mají zkušenosti s programováním, znají základy HTML a CSS, případně JS a chtěly by je posunout na další úroveň s Reactem.",
     },
     {
         icon: "/images/icons/woman3.svg",
@@ -118,7 +118,7 @@ export const mentQuestionsArr = [
     },
     {
         question: "Co si z Mentoringu odnesu?",
-        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, certifikát o absolvování a merch ReactGirls.",
+        answer: "Odneseš si znalosti HTML, CSS, JavaScriptu, Reactu. Reálnou zkušenost s Reactem, motivaci, možnost vyzkoušet si interview se zkušeným HR, Certifikát o absolvování Mentoringu a ReactGirls merch.",
     },
     {
         question: "Stále si nejsi jistá?",
@@ -130,7 +130,7 @@ export const processArrMent = [
     {
         number: 1,
         heading: "REGISTRACE",
-        text: "V případě, že je momentálně otevřené přihlašování na Mentoring, pod cenou Mentoringu je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření dalšího Mentoringu dozvíš",
+        text: "V případě, že je momentálně otevřené přihlašování na Mentoring, pod cenou Mentoringu je možné kliknout na tlačítko REGISTRACE, v opačném případě můžeš odebírat náš Newsletter, kde se o otevření dalšího Mentoringu dozvíš.",
         reversed: false,
         last: false,
         first: true
