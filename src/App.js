@@ -11,6 +11,9 @@ import Contact from './pages/Contact/Contact';
 import ScrollToTop from './components/reusable/ScrollToTop';
 import { ThemeProvider } from './ThemeContext';
 
+function getFaviconEl() {
+  return document.getElementById("favicon");
+}
 
 function App() {
   const useMediaQuery = (width) => {
