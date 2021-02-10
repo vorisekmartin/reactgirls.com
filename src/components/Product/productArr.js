@@ -5,7 +5,7 @@ import { LinkA, LinkScroll } from '../reusable/styled';
 const productArr = [ 
     {
         title: "Komunita",
-        info: <>ReactGirls je komunita lidí, které spojuje láska k technologiím a programování. Pomáháme ženám, které se chtějí stát programátorkami za vedení profesionálních lektorů a mentorů. Zapojte se do naší komunity na Slacku a ostatních sociálních sítích.</>,
+        info: <>ReactGirls je komunita lidí, které spojuje láska k technologiím a programování. Pomáháme ženám, které se chtějí stát programátorkami za vedení profesionálních lektorů a mentorů. Zapojte se do naší komunity na sociálních sítích.</>,
         hideButton: false,
         buttonText: "Zjistit více",
         img: "images/products/community.jpg",

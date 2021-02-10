@@ -190,9 +190,9 @@ export const HeroHomeImg = styled.img`
  `;
 
  export const SliderImg = styled(Slider)`
-    //margin: 0 auto;
+ 
     @media only screen and (max-width: 1250px) { 
-        margin: 40px auto 0 auto; 
+        margin: 30px auto 0 auto; 
     }
   .slick-dots li {
     width: 10px;
@@ -252,8 +252,8 @@ export const SubtitleHero = styled(Subtitle)`
     
     @media only screen and (max-width: 1250px) { 
         text-align: center;
-        margin-top: 40px; 
-        margin-bottom: 40px; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
     }   
 `;
 

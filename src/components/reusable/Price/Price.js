@@ -18,7 +18,7 @@ import {
 
 function Price({mainPriceTitle, data, price, form, showLogInButton, showNewsletter }) {
     return (
-        <Container>
+        <Container id='price'>
             <Wrapper>
                 <PriceWrapper showNewsletter={showNewsletter}>
                     <TitlePrice>{mainPriceTitle}</TitlePrice>
@@ -37,7 +37,7 @@ function Price({mainPriceTitle, data, price, form, showLogInButton, showNewslett
                         })
                         } 
                         {showLogInButton &&
-                        <ButtonPrice href={form} target="blank" >MÁM ZÁJEM</ButtonPrice>
+                        <ButtonPrice href={form} target="blank" >REGISTRACE</ButtonPrice>
                         }
                     </PriceContainer> 
                     </PriceRectangle> 

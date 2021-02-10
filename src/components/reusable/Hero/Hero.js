@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { useTheme, useThemeUpdate } from '../../../ThemeContext';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { 
     TitleContainer,
@@ -70,7 +71,15 @@ function Hero({
                               <Newsletter />
                             }
                             {showLogInButton &&
-                            <ButtonHero href={form} target="blank">MÁM ZÁJEM</ButtonHero>
+                            <Link to='price'
+                            smooth={true}
+                            duration='700'
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            >
+                              <ButtonHero>MÁM ZÁJEM</ButtonHero>
+                            </Link>
                             }   	
                         </TitleContainer>
                         { !isBreakpoint && 
