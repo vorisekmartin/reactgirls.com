@@ -8,8 +8,8 @@ export const heroObjTwo = {
     buttonText: "ODEBÍRAT NEWSLETTER",
     img: "/images/gallery/mentoring.jpg",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
-    showNewsletter: false,
-    showLogInButton: true,
+    showNewsletter: true,
+    showLogInButton: false,
 };
 
 /* switch between Newsletter and LogInButton on Price Container of Mentoring page*/
@@ -17,8 +17,8 @@ export const heroObjTwo = {
 export const mentPrice = {
     price: "2700 CZK",
     form: "https://docs.google.com/forms/d/e/1FAIpQLSdLTtWVz3S3cLZtxeTbmlkL9VtXYv9YGYlBH1XxrlXVv-60Qw/viewform",
-    showNewsletter: false,
-    showLogInButton: true,
+    showNewsletter: true,
+    showLogInButton: false,
 }
 
 export const infoObjOne = {
